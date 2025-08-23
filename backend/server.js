@@ -1,3 +1,5 @@
+
+import { dbConnection } from "./database/dbConnection.js";
 import app from "./app.js";
 
 app.listen(process.env.PORT, ()=>{
